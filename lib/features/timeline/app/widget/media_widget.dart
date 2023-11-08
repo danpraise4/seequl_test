@@ -1,21 +1,14 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
-import 'package:readmore/readmore.dart';
 import 'package:seequl/core/provider/ToShowProvider.dart';
 import 'package:seequl/core/resources/constants.dart';
 import 'package:seequl/core/resources/enums.dart';
 import 'package:seequl/core/resources/strings.dart';
 import 'package:seequl/core/seequl/theme.dart';
-import 'package:seequl/core/storage/database.dart';
-import 'package:seequl/core/storage/storage.dart';
 import 'package:seequl/features/timeline/app/widget/post_reaction_widget.dart';
 import 'package:seequl/features/timeline/app/widget/profile_image_widget.dart';
 import 'package:seequl/features/timeline/app/widget/read_more_widget.dart';
-import 'package:seequl/features/timeline/data/constants/constants.dart';
 import 'package:seequl/features/timeline/data/models/post.model.dart';
 import 'package:video_player/video_player.dart';
 
